@@ -57,14 +57,8 @@ nav ul li a:hover{
     color: #333;
 }
 
-article{
-    background-color: white;
-    padding: 20px 0px 0px 0px;
-    margin: 10px;
-}
-
-section{
-    padding: 20px 0px 0px 10px;
+article, section{
+    padding: 20px;
     background-color: #f9f9f9;
     margin: 10px;
 }
@@ -72,15 +66,13 @@ section{
 article p, section p{
     font-size: 14px;
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 
 aside{
-    flex: 0 0 25%;
-    background-color: #f0f0f0;
     padding: 20px;
-    margin: 10px 10px 0px 10px;
+    background-color: #f0f0f0;
+    margin: 10px;
 }
 
 aside ul{
@@ -90,47 +82,16 @@ aside ul{
     padding-bottom: 10px;
 }
 
-.flex-items-home2{
-    margin: 0px 0px 10px 0px;
-}
-
-.flex-items-about3{
-    margin: 10px 0px 10px 0px;
-}
-
 footer{
     font-size: 12px;
     text-align: center;
     background-color: #333;
     color: white;
-    padding: 10px 0px 30px 0px;
-    margin: 0px;
+    padding: 10px 20px 30px 12px;
+    margin: 10px;
 }
 
 footer p{
     font-size: 12px;
     padding-top: 20px;
-}
-
-.flex-container > *{
-    margin: 0px 5px 0px 5px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300;
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-.flex-container-2 {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-.main-content{
-    flex: 1;
 }
